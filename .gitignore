@@ -1,0 +1,54 @@
+# Diretórios de ambiente virtual
+venv/
+env/
+__pycache__/
+pyvenv.cfg
+
+# Arquivos compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e banco local
+logs/
+dados/database/
+
+# Arquivos de configuração sensíveis
+config/config.json
+dados/*.json
+dados/token.json
+dados/credentials.json
+
+# Arquivos temporários
+*.tmp
+*~
+*.bak
+
+# Sistema de versionamento automático
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pacotes de distribuição
+dist/
+build/
+*.egg-info/
+
+# Arquivos gerados pelo PyQt5
+interface/*_ui.py
+*.ui
+
+# Testes e cobertura
+.pytest_cache/
+coverage/
+*.coverage
+coverage.xml
+
+# Ferramentas de dependências (opcional, se usar Pipenv ou Poetry)
+Pipfile.lock
+poetry.lock
